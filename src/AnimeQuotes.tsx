@@ -1,5 +1,6 @@
 import React, { ReactElement } from "react";
 import { useQuery } from "react-query";
+import { ReactQueryDevtools } from "react-query/devtools";
 import { Grid } from "gridjs-react";
 
 import "gridjs/dist/theme/mermaid.css";
@@ -35,15 +36,18 @@ function AnimeQuotes(): ReactElement {
   }
 
   return (
-    <Grid
-      data={data?.map((item) => [item.anime, item.character, item.quote])}
-      columns={["Anime", "Character", "Quote"]}
-      search={true}
-      pagination={{
-        enabled: true,
-        limit: 5,
-      }}
-    />
+    <>
+      <Grid
+        data={data?.map((item) => [item.anime, item.character, item.quote])}
+        columns={["Anime", "Character", "Quote"]}
+        search={true}
+        pagination={{
+          enabled: true,
+          limit: 5,
+        }}
+      />
+      <ReactQueryDevtools initialIsOpen={false} />
+    </>
   );
 }
 
