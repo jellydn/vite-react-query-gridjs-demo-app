@@ -1,4 +1,5 @@
-import React, { ReactElement, useState, useEffect } from "react";
+import React, { ReactElement } from "react";
+import { useQuery } from "react-query";
 import { Grid } from "gridjs-react";
 
 import "gridjs/dist/theme/mermaid.css";
@@ -19,22 +20,25 @@ async function getQuotes() {
 }
 
 function AnimeQuotes({}: Props): ReactElement {
-  const [quotes, setQuotes] = useState<
+  const { isLoading, error, data } = useQuery<
     Array<{
-      name: string;
-      quote: string;
+      anime: string;
       character: string;
+      quote: string;
     }>
-  >([]);
+  >("quotes", getQuotes);
 
-  // Fetch data on 1st render
-  useEffect(() => {
-    getQuotes().then((quotes) => setQuotes(quotes));
-  }, []);
+  if (isLoading) {
+    return <p>Loading...</p>;
+  }
+
+  if (error) {
+    return <p role="alert">{(error as Error).message}</p>;
+  }
 
   return (
     <Grid
-      data={quotes.map((item) => [item.name, item.character, item.quote])}
+      data={data?.map((item) => [item.anime, item.character, item.quote])}
       columns={["Anime", "Character", "Quote"]}
       search={true}
       pagination={{
