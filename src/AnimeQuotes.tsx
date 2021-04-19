@@ -4,8 +4,6 @@ import { Grid } from "gridjs-react";
 
 import "gridjs/dist/theme/mermaid.css";
 
-interface Props {}
-
 async function getQuotes() {
   try {
     const response = await fetch("https://animechan.vercel.app/api/quotes");
@@ -19,7 +17,7 @@ async function getQuotes() {
   }
 }
 
-function AnimeQuotes({}: Props): ReactElement {
+function AnimeQuotes(): ReactElement {
   const { isLoading, error, data } = useQuery<
     Array<{
       anime: string;
