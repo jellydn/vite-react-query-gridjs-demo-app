@@ -427,10 +427,10 @@ gridjs-react@3.4.0:
   resolved "https://registry.yarnpkg.com/gridjs-react/-/gridjs-react-3.4.0.tgz#449c6935fcdd1015d0fae840256146efaa2cd239"
   integrity sha512-oyssMYU+mTx8QH1/pm0fzJsYJlxwpmDQSsRU1aOKLPKEXO2gpYQoDELaPZONdblX4YSry9QJ8agG1kkpCvmEpQ==
 
-gridjs@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/gridjs/-/gridjs-3.4.0.tgz#f57a942e969581ee06f1bee60abcf09ddfaf0c76"
-  integrity sha512-wkRbtOblx2EXJCk4j+cgJSFB02PCyx33mIZlcyWZOmrFGbfc6ITq8vhZxaxV5jeBvtixoJ/csMTkpugVsHAlMw==
+gridjs@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/gridjs/-/gridjs-4.0.0.tgz#a6dc682349f0a28ecb278531c001a2c90c0edd4b"
+  integrity sha512-HSs5/DYcy+TF96TiYejqDQ5q4sZBTwVFfY3wKhz8oDD/kdeL5T03kWo2pih2906JVBlx/Qk9bAFzlGnnvsW7Gg==
   dependencies:
     preact "^10.5.12"
     tslib "^2.0.1"
