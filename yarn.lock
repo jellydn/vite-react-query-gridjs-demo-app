@@ -422,10 +422,10 @@ globals@^11.1.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
 
-gridjs-react@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/gridjs-react/-/gridjs-react-3.4.0.tgz#449c6935fcdd1015d0fae840256146efaa2cd239"
-  integrity sha512-oyssMYU+mTx8QH1/pm0fzJsYJlxwpmDQSsRU1aOKLPKEXO2gpYQoDELaPZONdblX4YSry9QJ8agG1kkpCvmEpQ==
+gridjs-react@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/gridjs-react/-/gridjs-react-4.0.0.tgz#6ba9a0b3cd4edb4f2ac25800608876a41a93bb1c"
+  integrity sha512-0EiwqGI5L89y0DruJRKCnb+Pm9V/N1sq1VTzldMqXEhFQPs0XhgCrJbiAjY/ATyqHI4ZNUDlvmISDwRVMov1pw==
 
 gridjs@4.0.0:
   version "4.0.0"
