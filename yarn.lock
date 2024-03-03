@@ -427,13 +427,12 @@ gridjs-react@4.0.0:
   resolved "https://registry.yarnpkg.com/gridjs-react/-/gridjs-react-4.0.0.tgz#6ba9a0b3cd4edb4f2ac25800608876a41a93bb1c"
   integrity sha512-0EiwqGI5L89y0DruJRKCnb+Pm9V/N1sq1VTzldMqXEhFQPs0XhgCrJbiAjY/ATyqHI4ZNUDlvmISDwRVMov1pw==
 
-gridjs@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/gridjs/-/gridjs-4.0.0.tgz#a6dc682349f0a28ecb278531c001a2c90c0edd4b"
-  integrity sha512-HSs5/DYcy+TF96TiYejqDQ5q4sZBTwVFfY3wKhz8oDD/kdeL5T03kWo2pih2906JVBlx/Qk9bAFzlGnnvsW7Gg==
+gridjs@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/gridjs/-/gridjs-6.2.0.tgz#c04008d43e8426298a04ef8637cde1e787138514"
+  integrity sha512-EAGGfHjyEXWh12Txs6DjTGnWTo226wbowtMrLI+yNZQaJpvs0m7yDcyM7r+D4RA7rZQVj/cfmwEaRz/rlxg8LA==
   dependencies:
-    preact "^10.5.12"
-    tslib "^2.0.1"
+    preact "^10.11.3"
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -579,10 +578,10 @@ postcss@^8.2.10:
     nanoid "^3.1.23"
     source-map "^0.6.1"
 
-preact@^10.5.12:
-  version "10.5.13"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-10.5.13.tgz#85f6c9197ecd736ce8e3bec044d08fd1330fa019"
-  integrity sha512-q/vlKIGNwzTLu+jCcvywgGrt+H/1P/oIRSD6mV4ln3hmlC+Aa34C7yfPI4+5bzW8pONyVXYS7SvXosy2dKKtWQ==
+preact@^10.11.3:
+  version "10.19.6"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.19.6.tgz#66007b67aad4d11899f583df1b0116d94a89b8f5"
+  integrity sha512-gympg+T2Z1fG1unB8NH29yHJwnEaCH37Z32diPDku316OTnRPeMbiRV9kTrfZpocXjdfnWuFUl/Mj4BHaf6gnw==
 
 react-dom@17.0.2:
   version "17.0.2"
@@ -686,11 +685,6 @@ to-fast-properties@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
   integrity sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
-
-tslib@^2.0.1:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
-  integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
 
 typescript@4.2.4:
   version "4.2.4"
